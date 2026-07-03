@@ -7,19 +7,43 @@
 <plugin>
 
    <extension point="org.eclipse.emf.ecore.generated_package">
-      <!-- @generated model -->
+      <!-- @generated asem -->
       <package
-            uri="http://vitruv.tools/methodologisttemplate/model"
-            class="tools.vitruv.methodologisttemplate.model.model.ModelPackage"
-            genModel="src/main/ecore/model.genmodel"/>
+            uri="edu.kit.ipd.sdq.metamodels.asem"
+            class="tools.vitruv.methodologisttemplate.model.asem.AsemPackage"
+            genModel="src/main/ecore/asem.genmodel"/>
    </extension>
 
    <extension point="org.eclipse.emf.ecore.generated_package">
-      <!-- @generated model2 -->
+      <!-- @generated asem -->
       <package
-            uri="http://vitruv.tools/methodologisttemplate/model2"
-            class="tools.vitruv.methodologisttemplate.model.model2.Model2Package"
-            genModel="src/main/ecore/model2.genmodel"/>
+            uri="edu.kit.ipd.sdq.metamodels.asem.base"
+            class="tools.vitruv.methodologisttemplate.model.asem.base.BasePackage"
+            genModel="src/main/ecore/asem.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated asem -->
+      <package
+            uri="edu.kit.ipd.sdq.metamodels.asem.classifiers"
+            class="tools.vitruv.methodologisttemplate.model.asem.classifiers.ClassifiersPackage"
+            genModel="src/main/ecore/asem.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated asem -->
+      <package
+            uri="edu.kit.ipd.sdq.metamodels.asem.dataexchange"
+            class="tools.vitruv.methodologisttemplate.model.asem.dataexchange.DataexchangePackage"
+            genModel="src/main/ecore/asem.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated asem -->
+      <package
+            uri="edu.kit.ipd.sdq.metamodels.asem.primitivetypes"
+            class="tools.vitruv.methodologisttemplate.model.asem.primitivetypes.PrimitivetypesPackage"
+            genModel="src/main/ecore/asem.genmodel"/>
    </extension>
 
 </plugin>

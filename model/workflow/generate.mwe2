@@ -13,15 +13,12 @@ Workflow {
     }
 
     component = EcoreGenerator {
-        genModel = "platform:/resource/tools.vitruv.methodologisttemplate.model/src/main/ecore/model.genmodel"
+        genModel = "platform:/resource/tools.vitruv.methodologisttemplate.model/src/main/ecore/asem.genmodel"
         srcPath = "platform:/resource/tools.vitruv.methodologisttemplate.model/target/generated-sources/ecore"
         generateCustomClasses = false
     }
 
-    component = EcoreGenerator {
-        genModel = "platform:/resource/tools.vitruv.methodologisttemplate.model/src/main/ecore/model2.genmodel"
-        srcPath = "platform:/resource/tools.vitruv.methodologisttemplate.model/target/generated-sources/ecore"
-        generateCustomClasses = false
-    }
+    // AMALTHEA is not generated here: the official APP4MC model classes are
+    // consumed as a Maven dependency (org.eclipse.app4mc.amalthea.model).
 
 }
