@@ -8,6 +8,7 @@ Semantic overlap exists when two metamodels, developed independently for differe
  
 
 2  Metamodel Anchor Points
+
 2.1  AMALTHEA elements in scope
 Component — in CompOnentsModel.components; has name, runnables[], labels[], ports[]
 Task / ISR — in SWModel.tasks / .isrs; key refs: stimuli[], activityGraph
