@@ -2,7 +2,7 @@
 
 **Vitruv-Based Bidirectional Model Consistency Preservation**
 
-A four-module Maven project implementing bidirectional change propagation between the AMALTHEA metamodel (APP4MC 3.3.0) and the ASEM metamodel (KIT) using the Vitruv framework, based on the consistency preservation rules from Mazkatli et al. (2016).
+A Maven project implementing bidirectional change propagation between the AMALTHEA metamodel (APP4MC 3.3.0) and the ASEM metamodel (KIT) using the Vitruv framework, based on the consistency preservation rules.
 
 ## Table of Contents
 
